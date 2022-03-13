@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+html{
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+}
+
+.container{
+    width: 100%;
+    margin-top: -1.2%;
+    height:100%;
+    display: flex;
+}
+
+.card img{
+    margin-top: 15%;
+}
+
+.img-card{
+    width: 65%;
+    background-image: url('../img/cheval2.jpg');
+    background-repeat: no-repeat;
+    background-position: left,bottom;
+    height:102.4vh;
+}
+
+.card{
+    width: 35%;
+    background-color: #f7f7f7;
+    height:102.4vh;
+    box-shadow: 5px 10px 10px black;
+}
+
+.card-header{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.card-body{
+    margin-top: 15%;
+}
+
+.form-control{
+    background-color: transparent;
+    border : 2px solid #ced6e0;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height:70px;
+    width: 450px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mdpOublie{
+    text-align: right;
+    width: 450px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.login_btn{
+    width: 450px;
+    height: 50px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background-color: #f9ca24;
+    border : 2px solid #f9ca24;
+    transition: 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:white;
+}
+
+.login_btn:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: #2f3542;
+}
+
+.form-group a{
+    text-decoration: none;
+    color:#95afc0;
+}
+
+.copyright{
+    position:absolute;
+    bottom:0;
+    width: 35%;
+    text-align: center;
+    color:#95afc0;
+    font-size: 13px;
+}
+
+.erreur-formulaire{
+    color: red;
+}
+
+/*=================================================*/
+/*===================RESPONSIVE====================*/
+/*=================================================*/
+@media screen and (max-width: 1400px) {
+    .card{
+        width: 50%;
+    }
+    
+    .img-card{
+        width: 50%;
+    }
+    
+    .form-group a{
+        width: 45%;
+    }
+    .copyright{
+        width:45%;
+    }
+}
+
+
+
+@media screen and (max-width: 970px) {
+    
+    .card img{
+        margin-top:5%;
+    }
+    
+    .card{
+        width: 100%;
+    }
+    
+    .card-body{
+        margin-top: 5%;
+    }
+    
+    .img-card{
+        width: 0%;
+    }
+    .copyright{
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    .card{
+        width: 100%;
+    }
+    
+    .img-card{
+        width: 0%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card{
+        width: 100%;
+    }
+    
+    .img-card{
+        width: 0%;
+    }
+    
+    .form-control{
+        width: 200px;
+    }
+    .mdpOublie{
+        width:200px;
+    }
+    .login_btn{
+        width:200px;
+    }
+}

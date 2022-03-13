@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+align-content: center;
+}
+
+.card{
+width: 300px;
+margin-top: auto;
+margin-bottom: auto;
+background: #ecf0f1;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: white;
+background: rgba(30, 39, 46,1.0);
+border: 2px solid #FFC312;
+width: 150px;
+text-align: center;
+margin-left: 20px;
+margin-right: 5px;
+transition: 0.2s ease;
+}
+
+.login_btn:hover{
+background: #FFC312;
+background-color: #FFC312;
+transition: 0.2s ease;
+}
+
+.container-img{
+    background-image: url("../img/header-bg3.jpg");
+    height:25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    bakground-size:cover;
+    position:relative;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 30px;
+}
+
+.container-inner{
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    color:black;
+    height:auto;
+    margin-top: 20px;
+}
+
+.container-inner h3{
+    font-size: 35px;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.container-inner p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:white;
+    font-weight: bold;
+}
+
+.bouton-header{
+    display:inline-block;
+    width:200px;
+    font-weight: bold;
+    padding:10px;
+    color:white;
+    border:4px solid white;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.bouton-header:hover, .bouton-header:active{
+    text-decoration: none;
+    background-color: white;
+    color:#000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#test{
+    background-color:#1e272e;
+}
+
+#test a:hover{
+    background-color:#FFC312;
+    border-radius: 5px;
+    color:black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: 0.2s ease;
+}
+
+.table{
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+td{
+    text-align:center;
+} 
+
+th{
+    text-align:center;
+} 
+
+#recherche{
+    justify-content: flex-end;
+}
+html{
+    min-height:100%;
+}
+
+footer{
+    position:relative;
+    width:100%;
+    height:60px;
+    background-color: #1e272e;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 23px;
+}
+
+footer p{
+    padding-top:20px;
+}
